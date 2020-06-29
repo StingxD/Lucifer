@@ -12,7 +12,7 @@
          "value": "ANYTHING"
       },
       "SQLALCHEMY_DATABASE_URI": {
-@@ -45,7 +45,7 @@
+
          "value": "AnimeKaizoku"
       },
       "DEV_USERS": {
