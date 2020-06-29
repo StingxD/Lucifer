@@ -140,13 +140,13 @@ def send_start(bot, update):
     except:
         pass
     chat = update.effective_chat  # type: Optional[Chat]
-    text = " Hey there! My name is Lucifer - I'm here to help you manage your groups! "
-    text += "\n\nJoin our [Support Group](https://t.me/LuciferProBotSupport) if you need any support or help and Follow [Lucifer](https://t.me/LuciferUpdates) if you want to keep up with the bot news, bot updates and bot downtime."
-    text += "\n\nWant to add me to your group? [Click here!](t.me/Lucifer_ProBot?startgroup=true)"  
+    text = " Hey there! My name is Sushant Singh - I'm here to help you manage your groups! "
+    text += "\n\nJoin our [Support Group](https://t.me/SushantProBotSupport) if you need any support or help and Follow [Lucifer](https://t.me/SushantUpdates) if you want to keep up with the bot news, bot updates and bot downtime."
+    text += "\n\nWant to add me to your group? [Click here!](t.me/SushantSingh_ProBot?startgroup=true)"  
 
-    keyboard = [[InlineKeyboardButton(text="🎉 Add me in your Group!", url="t.me/Lucifer_ProBot?startgroup=true")]]
-    keyboard += [[InlineKeyboardButton(text="📢 Support Group", url="https://t.me/LuciferProBotSupport"), InlineKeyboardButton(text="🔔 Updates", url="https://t.me/LuciferUpdates")]]
-    keyboard += [[InlineKeyboardButton(text="❔ Help", callback_data="help_back"),InlineKeyboardButton(text="👤 Contact creator",url="https://telegram.dog/Amazers_xD")]]
+    keyboard = [[InlineKeyboardButton(text="🎉 Add me in your Group!", url="t.me/SushantSingh_ProBot?startgroup=true")]]
+    keyboard += [[InlineKeyboardButton(text="📢 Support Group", url="https://t.me/SushantProBotSupport"), InlineKeyboardButton(text="🔔 Updates", url="https://t.me/JokerUpdates")]]
+    keyboard += [[InlineKeyboardButton(text="❔ Help", callback_data="help_back"),InlineKeyboardButton(text="👤 Contact creator",url="https://telegram.dog/StingxD")]]
    
     update.effective_message.reply_photo(HELP_PANEL_STRING.lucifer_IMG,text, reply_markup=InlineKeyboardMarkup(keyboard), parse_mode=ParseMode.MARKDOWN)
 
